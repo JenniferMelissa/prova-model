@@ -9,4 +9,5 @@ public class Nivel{
     public int IdNivel { get; set; }
     public string Nome { get; set; }
 
+    public ICollection<Usuario> Usuarios { get; set; } = null!;
 }
